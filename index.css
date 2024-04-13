@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 1px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  nav {
+    height: 65px;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  .icon {
+    float: inline-start;
+    display: flex;
+    margin: 0 5px;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 45px;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline;
+    align-items: center;
+    margin: 25px;
+  }
+  
+  .cont {
+    height: 450px;
+  }
+  
+  nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+  
+  .intro {
+    float: left;
+    font-size: 13px;
+    margin: 0 0 0 20px;
+    padding: 60px 0px 0px 25px;
+  }
+  
+  .profile {
+    margin: 10px 35px 10px 35px;
+    padding: 10px 35px 10px;
+    float: right;
+  }
+  
+  .co {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cont2 {
+    width: 550px;
+    font-family: 'Gill Sans' sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    text-transform: uppercase;
+  }
+  
+  .skill h1 {
+    text-align: center;
+  }
+  
+  .skill h3 {
+    margin: 5px;
+  }
+  
+  .skill {
+    width: 350px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .skill li {
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  }
+  
+  .bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 10, 1.0)100%);
+  }
+  
+  .html {
+    width: 90%;
+    animation: html 3s;
+  }
+  
+  .css {
+    width: 65%;
+    animation: css 3s;
+  }
+  
+  .javascript {
+    width: 50%;
+    animation: javascript 3s;
+  }
+  
+  .react {
+    width: 40%;
+    animation: react 3s;
+  }
+  
+  .cont3 {
+    height: 240px;
+  }
+  
+  .project {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project img {
+    float: right;
+  }
+  
+  .hj {
+    width: 420px;
+    margin: 80px 0 0 95px;
+  }
+  
+  .lk {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 300px 50px 0;
+  }
+  
+  .bh {
+    width: 580px;
+    height: 250px;
+    float: right;
+    padding: 0 120px 0 0;
+  }
+  
+  .sd {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    height: 65px;
+  }
+  
+  .footer-content {
+    max-width: 2200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+    background: black;
+  }
+  
+  .footer-content ul li {
+    display: inline;
+    margin: 0 10px;
+    background: #000;
+  }
+  
+  .footer-content ul li a {
+    text-decoration: none;
+    color: beige;
+  }
+  
+  .footer-content a {
+    background-color: black;
+  }
+  
+  .footer-content ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav ul {
+      float: none;
+      margin: 0;
+      display: block;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 0;
+      padding: 10px;
+    }
+  
+    .intro {
+      float: none;
+      margin: 20px 0;
+      padding: 0;
+    }
+  
+    .profile {
+      float: none;
+      margin: 20px 0;
+      padding: 0;
+    }
+  
+    .cont2 {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .skill {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .project {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project img {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+  
+    .hj {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .lk {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .bh {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+  }
+

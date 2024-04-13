@@ -1,0 +1,1 @@
+document.getElementsByClassName("cont3");
